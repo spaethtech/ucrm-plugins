@@ -46,3 +46,7 @@ Set breakpoints in the Plugin code at `./environment/src` where needed.
 And when the pages are requested in the browser, the breakpoints should be hit and your IDE should have the desired
 information. Debug as desired!
 
+> _**IMPORTANT:** As these breakpoints are in the deployed code, and your impulse will likely be to alter the code
+> during the process, **DO NOT** forget to make the actual changes in your local source code._
+> 
+> _Additional tools to automate this process are forthcoming._

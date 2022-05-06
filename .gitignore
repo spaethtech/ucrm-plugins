@@ -3,3 +3,14 @@ vendor
 
 # JetBrains IDE
 .idea/
+
+# Vagrant
+.vagrant/
+
+# Environment
+environment/env/*
+!environment/env/README.md
+environment/src/*
+!environment/src/README.md
+environment/www/*
+!environment/www/README.md

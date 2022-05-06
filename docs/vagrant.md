@@ -1,4 +1,4 @@
-# Local Development Environment
+# Local Development Environment (Vagrant)
 
 To help improve the Plugin development experience, the following guide can be used to deploy and configure a local 
 development environment using [Vagrant](https://www.vagrantup.com/).
@@ -146,5 +146,4 @@ Vagrant provided the `vagrant ssh` command to allow for easy SSH access into the
 ### Accessing the VM (HTTP)
 
 The standard UISP on-boarding process should now also be available at https://localhost from your development machine.
-
 

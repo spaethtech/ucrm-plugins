@@ -31,3 +31,9 @@ Read more in the [File structure](file-structure.md) documentation.
 The plugins can also add custom pages via `public.php`. You can put additional security restrictions on these pages if desired.
 
 Read more in the [Security](security.md) documentation.
+
+## Local Development Environment (using Vagrant)
+
+Read more in the [Vagrant](vagrant.md) documentation.
+
+

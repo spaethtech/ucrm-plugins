@@ -1,0 +1,19 @@
+version: "2"
+
+services:
+  postgres:
+    networks:
+      - public
+    ports:
+      - "5432:5432"
+  ucrm:
+    image: spaethtech/unms-crm:3.4.3
+    build:
+      context: xdebug
+      dockerfile: Dockerfile
+    volumes:
+      - ./xdebug/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+      - ./xdebug/xdebug_params:/etc/nginx/xdebug_params
+      - ./xdebug/bin/upm.php:/usr/bin/upm
+      - /home/vagrant/src:/data/ucrm/data/plugins
+      - /home/vagrant/www:/usr/src/ucrm/web/_plugins

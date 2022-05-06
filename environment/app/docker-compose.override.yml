@@ -7,7 +7,7 @@ services:
     ports:
       - "5432:5432"
   ucrm:
-    image: spaethtech/unms-crm:3.4.3
+    image: spaethtech/unms-crm:latest
     build:
       context: xdebug
       dockerfile: Dockerfile

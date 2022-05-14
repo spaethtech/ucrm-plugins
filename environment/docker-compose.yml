@@ -1,0 +1,13 @@
+version: '2'
+services:
+  unms:
+    image: nico640/docker-unms:latest
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+      - 2055:2055/udp
+    environment:
+      - TZ=America/Los_Angeles
+    volumes:
+      - ./volumes/unms:/config

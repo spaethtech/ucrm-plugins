@@ -4,10 +4,10 @@ services:
     image: nico640/docker-unms:1.4.4
     restart: always
     ports:
-      - 80:80
-      - 443:443
-      - 2055:2055/udp
+      - "80:80"
+      - "443:443"
+      - "2055:2055/udp"
     environment:
       - TZ=America/Los_Angeles
     volumes:
-      - ./volumes/unms:/config
+      - ../../environment/dev:/config

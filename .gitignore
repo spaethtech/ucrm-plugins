@@ -15,4 +15,5 @@ environment/src/*
 environment/www/*
 !environment/www/README.md
 
-environment/volumes/*
+environment/unms/*
+!environment/unms/README.md

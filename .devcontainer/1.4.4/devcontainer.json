@@ -1,0 +1,8 @@
+{
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "unms",
+    "forwardPorts": [ 80, 443, 2055 ],
+    "workspaceFolder": "/config",
+    "shutdownAction": "stopCompose",
+    "extensions": []
+}

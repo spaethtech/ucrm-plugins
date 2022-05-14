@@ -15,5 +15,4 @@ environment/src/*
 environment/www/*
 !environment/www/README.md
 
-environment/dev/*
-!environment/dev/README.md
+environment/volumes/*
